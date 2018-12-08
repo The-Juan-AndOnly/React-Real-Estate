@@ -1,0 +1,30 @@
+header {
+  background: #0c002b;
+  color: white;
+  overflow: auto;
+  padding: 20px 15px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 0.75rem 1.2rem;
+  color: white;
+}
+
+header nav a:hover {
+  color: #ff718e;
+}
+
+header button {
+  background: #ff718e;
+  padding: 7px 25px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  margin-right: 1rem;
+}

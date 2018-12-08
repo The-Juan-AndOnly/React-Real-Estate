@@ -1,0 +1,62 @@
+#listing {
+  width: 70%;
+  padding: 20px;
+}
+
+#listing .search-area {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#listing .search-area i {
+  font-size: 1.2rem;
+  color: red;
+  margin-left: -20px;
+}
+
+#listing .search-area input[type='text'] {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid lightgray;
+  font-size: 1.2rem;
+  padding: 2px;
+  outline: none;
+  color: #333;
+}
+
+#listing .search-results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+#listing .search-results .results {
+  color: darkgray;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+#listing .search-results .sortby-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+}
+
+#listing .search-results .sortby-area .sortby {
+  font-size: 0.9rem;
+  background: transparent;
+}
+
+#listing .search-results .sortby-area .view i {
+  padding: 5px;
+  font-size: 1.2rem;
+}
