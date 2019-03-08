@@ -27,6 +27,7 @@ class Listings extends Component {
             </div>
           </div>
         </section>
+
         <section className="listing-results">
           <div className="listing">
             <div className="listing-img">
